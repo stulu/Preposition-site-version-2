@@ -102,13 +102,14 @@ h4 {
     
 }
 
-.dotted-line {
+.breakline {
 
+	border: none;
 	width: 50%;
 	margin: auto;
 	margin-top: 5%;
 	margin-bottom: 5%;
-	border: 3px dashed #ab2f52;
+	border-bottom: 3px dashed #ab2f52;
 }
 .top {
 	--offset: 50px; 
