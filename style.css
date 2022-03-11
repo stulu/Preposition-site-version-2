@@ -9,6 +9,12 @@ body {
 	overflow-x: hidden;
 	max-width: 100%;
 }
+
+.nav {
+	display: block;
+	line-height: 3.5em;
+	padding-left: 15px;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
@@ -112,11 +118,10 @@ h4 {
 	border-bottom: 3px dashed #ab2f52;
 }
 .top {
-	--offset: 50px; 
-	
+	--offset: 50px;
 	position: sticky;
 	bottom: 5px;      
-	margin-left: 92%;
+	margin-left: 95%;
 	place-self: end;
 	margin-top: calc(100vh + var(--offset));
 	
@@ -142,4 +147,4 @@ h4 {
   a:hover {
 	background-color: #555;
   }
-  
+
